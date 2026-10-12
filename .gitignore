@@ -1,0 +1,41 @@
+# ---- 操作系统 ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- 编辑器 / IDE ----
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---- 日志 / 临时文件 ----
+*.log
+*.tmp
+*.bak
+*~
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# ---- Node ----
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# ---- 构建产物 ----
+dist/
+build/
+*.exe
+*.o
+*.obj
+
+# ---- 密钥 / 本地配置 ----
+.env
+.env.local
+*.pem
+*.key
